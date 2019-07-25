@@ -1,0 +1,10 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~react-notifications-component/dist/theme.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&subset=latin-ext');
+
+@import './views/Login';
+@import './views/Global';
+@import './views/Settings';
+@import './views/Panel';
+
+@import './components/common/NavBar';

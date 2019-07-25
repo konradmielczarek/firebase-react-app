@@ -1,0 +1,44 @@
+// body {
+//   font-family: 'Roboto', sans-serif;
+// }
+
+.page-title {
+  font-weight: 700;
+  margin: 0;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+a {
+  color: #e27331;
+
+  &:hover {
+    color: darken(#e27331, 15%);
+  }
+}
+
+.page-link {
+  color: #e27331 !important;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.page-item.active {
+  .page-link {
+    background-color: #e27331 !important;
+    color: #ffffff !important;
+    border-color: #e27331 !important;
+  }
+}
+
+.dropdown-item {
+  &:active {
+    background-color: #e27331 !important;
+    outline: none;
+  }
+}
+

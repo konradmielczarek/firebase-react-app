@@ -1,0 +1,21 @@
+.setting-name {
+  font-weight: 400;
+}
+
+.setting-item {
+  // padding: 6px 6px;
+  margin-bottom: 14px;
+
+  .setting-label {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .setting-data {
+    margin: 0;
+    color: #4e4e4e;
+    font-size: 14px;
+  }
+}
